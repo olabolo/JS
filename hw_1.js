@@ -1,1 +1,3 @@
-console.log('hello world')
+var Tc = prompt("Введите температуру по Фаренгейту");
+alert((9 / 5) * Tc + 32)
+
