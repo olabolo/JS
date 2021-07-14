@@ -1,21 +1,20 @@
-const a = '11';
+let a = +prompt('Введите число от 1 до 15');
 switch (a) {
-    case '0': console.log('0, ');
-    case '1': console.log('1, ');
-    case '2': console.log('2, ');
-    case '3': console.log('3, ');
-    case '4': console.log('4, ');
-    case '5': console.log('5, ');
-    case '6': console.log('6, ');
-    case '7': console.log('7, ');
-    case '8': console.log('8, ');
-    case '9': console.log('9, ');
-    case '10': console.log('10, ');
-    case '11': console.log('11, ');
-    case '12': console.log('12, ');
-    case '13': console.log('13, ');
-    case '14': console.log('14, ');
-    case '15': console.log('15, ');
+    case 1: console.log(a++);
+    case 2: console.log(a++);
+    case 3: console.log(a++);
+    case 4: console.log(a++);
+    case 5: console.log(a++);
+    case 6: console.log(a++);
+    case 7: console.log(a++);
+    case 8: console.log(a++);
+    case 9: console.log(a++);
+    case 10: console.log(a++);
+    case 11: console.log(a++);
+    case 12: console.log(a++);
+    case 13: console.log(a++);
+    case 14: console.log(a++);
+    case 15: console.log(a);
         break;
-    default: console.log('Укажите число в диапозоне от 0-15');
+    default: console.log('Укажите число в диапозоне от 1-15');
 }

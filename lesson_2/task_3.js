@@ -1,10 +1,10 @@
-let a = 8;
-let b = -7;
+let a = +prompt('Введите число  a');
+let b = +prompt('Введите число  b');
 
-if (a >= 0, b >= 0) {
+if (a >= 0 && b >= 0) {
     console.log('Разность чисел  a и b ', a - b);
 }
-else if (a < 0, b < 0) {
+else if (a < 0 && b < 0) {
     console.log('Произведение чисел  a и b ', a * b);
 }
 else {
